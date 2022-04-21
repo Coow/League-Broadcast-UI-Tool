@@ -1,0 +1,33 @@
+{
+    "stateData": {
+        "gameTime": 35.95481872558594,
+        "gamePaused": false,
+        "scoreboard": {
+            "BlueTeam": {
+                "Name": "TUM",
+                "Icon": "Cache\\TeamIcons\\Default.png",
+                "Score": 0,
+                "Kills": 0,
+                "Towers": 0,
+                "Gold": 2500,
+                "Dragons": []
+            },
+            "RedTeam": {
+                "Name": "LMU",
+                "Icon": "Cache\\TeamIcons\\Default.png",
+                "Score": 0,
+                "Kills": 0,
+                "Towers": 0,
+                "Gold": 2500,
+                "Dragons": ["Hextech"]
+            },
+            "GameTime": 35.95481872558594,
+            "SeriesGameCount": 3
+        },
+        "blueGold": 2500,
+        "redGold": 2500,
+        "blueColor": "rgb(66,133,244)",
+        "redColor": "rgb(234,67,53)"
+    },
+    "eventType": "GameHeartbeat"
+}

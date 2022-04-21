@@ -1,0 +1,49 @@
+{
+    "state": {
+        "champSelectActive": false,
+        "leagueConnected": true,
+        "blueTeam": {
+            "bans": [],
+            "picks": [],
+            "isActive": false
+        },
+        "redTeam": {
+            "bans": [],
+            "picks": [],
+            "isActive": false
+        },
+        "meta": {
+            "version": {
+                "champion": "12.6.1",
+                "item": "12.6.1"
+            },
+            "cdn": "https://ddragon.leagueoflegends.com/cdn"
+        },
+        "timer": 0,
+        "state": "PICK 1",
+        "config": {
+            "frontend": {
+                "scoreEnabled": true,
+                "spellsEnabled": true,
+                "coachesEnabled": true,
+                "blueTeam": {
+                    "name": "TUM",
+                    "nameTag": "TUM",
+                    "score": 0,
+                    "coach": "G2 Grabz",
+                    "color": "rgb(66,133,244)"
+                },
+                "redTeam": {
+                    "name": "LMU",
+                    "nameTag": "LMU",
+                    "score": 0,
+                    "coach": "G2 Grabz",
+                    "color": "rgb(234,67,53)"
+                },
+                "patch": "12.6.1"
+            },
+            "FileVersion": "1.0"
+        }
+    },
+    "eventType": "newState"
+}

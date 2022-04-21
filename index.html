@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/dcode.css">
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <title>WebSockets</title>
+</head>
+
+<body>
+
+    <script>
+        const ws = new WebSocket("ws://localhost:9001");
+
+        function dragonKill(drake, team) {
+
+            killEvent = {
+                ObjectiveName: drake,
+                TeamName: team,
+                eventType: "ObjectiveKilled"
+            }
+
+            ws.send(JSON.stringify(killEvent))
+        }
+
+        function connect() {
+            ws.onmessage = function (e) {
+                console.log('Message:', e.data);
+            };
+
+            ws.onclose = function (e) {
+                console.log('Socket is closed. Reconnect will be attempted in 1 second.', e.reason);
+                setTimeout(function () {
+                    connect();
+                }, 1000);
+            };
+
+            ws.onerror = function (err) {
+                console.error('Socket encountered error: ', err.message, 'Closing socket');
+                setTimeout(function () {
+                    connect();
+                }, 1000);
+            };
+        }
+
+        connect();
+
+        function sendTick() {
+            fetch(window.location.href + 'tick')
+        }
+    </script>
+</body>
+
+<button onclick="dragonKill('Cloud', 'ORDER')"> Send Cloud Kill</button>
+<button onclick="dragonKill('Fire', 'CHAOS')"> Send Infernal Kill</button>
+
+<button onclick="sendTick()"> Send Tick</button>
+
+</html>

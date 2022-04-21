@@ -1,0 +1,146 @@
+{
+    "Title": "Player Gold",
+    "Order": "MaxToMin",
+    "Players": [
+        {
+            "PlayerName": "Raphair2",
+            "IconPath": "Cache\\12.6.1\\champion\\Garen_square.png",
+            "Values": {
+                "MinValue": 0,
+                "MaxValue": 500,
+                "CurrentValue": 500
+            },
+            "ExtraInfo": [
+                "500",
+                "gold",
+                "ORDER"
+            ]
+        },
+        {
+            "PlayerName": "Ananão",
+            "IconPath": "Cache\\12.6.1\\champion\\Diana_square.png",
+            "Values": {
+                "MinValue": 0,
+                "MaxValue": 500,
+                "CurrentValue": 500
+            },
+            "ExtraInfo": [
+                "500",
+                "gold",
+                "ORDER"
+            ]
+        },
+        {
+            "PlayerName": "Ców",
+            "IconPath": "Cache\\12.6.1\\champion\\Ezreal_square.png",
+            "Values": {
+                "MinValue": 0,
+                "MaxValue": 500,
+                "CurrentValue": 500
+            },
+            "ExtraInfo": [
+                "500",
+                "gold",
+                "ORDER"
+            ]
+        },
+        {
+            "PlayerName": "ReykX",
+            "IconPath": "Cache\\12.6.1\\champion\\Jhin_square.png",
+            "Values": {
+                "MinValue": 0,
+                "MaxValue": 500,
+                "CurrentValue": 500
+            },
+            "ExtraInfo": [
+                "500",
+                "gold",
+                "ORDER"
+            ]
+        },
+        {
+            "PlayerName": "Inner Focus",
+            "IconPath": "Cache\\12.6.1\\champion\\Karma_square.png",
+            "Values": {
+                "MinValue": 0,
+                "MaxValue": 500,
+                "CurrentValue": 500
+            },
+            "ExtraInfo": [
+                "500",
+                "gold",
+                "ORDER"
+            ]
+        },
+        {
+            "PlayerName": "TiltForMePlz",
+            "IconPath": "Cache\\12.6.1\\champion\\Riven_square.png",
+            "Values": {
+                "MinValue": 0,
+                "MaxValue": 500,
+                "CurrentValue": 500
+            },
+            "ExtraInfo": [
+                "500",
+                "gold",
+                "CHAOS"
+            ]
+        },
+        {
+            "PlayerName": "Khyràà Knightley",
+            "IconPath": "Cache\\12.6.1\\champion\\Rengar_square.png",
+            "Values": {
+                "MinValue": 0,
+                "MaxValue": 500,
+                "CurrentValue": 500
+            },
+            "ExtraInfo": [
+                "500",
+                "gold",
+                "CHAOS"
+            ]
+        },
+        {
+            "PlayerName": "Tunnar",
+            "IconPath": "Cache\\12.6.1\\champion\\Katarina_square.png",
+            "Values": {
+                "MinValue": 0,
+                "MaxValue": 500,
+                "CurrentValue": 500
+            },
+            "ExtraInfo": [
+                "500",
+                "gold",
+                "CHAOS"
+            ]
+        },
+        {
+            "PlayerName": "UEM IKnockYou",
+            "IconPath": "Cache\\12.6.1\\champion\\Ashe_square.png",
+            "Values": {
+                "MinValue": 0,
+                "MaxValue": 500,
+                "CurrentValue": 500
+            },
+            "ExtraInfo": [
+                "500",
+                "gold",
+                "CHAOS"
+            ]
+        },
+        {
+            "PlayerName": "PcheS ",
+            "IconPath": "Cache\\12.6.1\\champion\\Thresh_square.png",
+            "Values": {
+                "MinValue": 0,
+                "MaxValue": 500,
+                "CurrentValue": 500
+            },
+            "ExtraInfo": [
+                "500",
+                "gold",
+                "CHAOS"
+            ]
+        }
+    ]
+}
